@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sun Aug 16 14:54:02 2020 as: nmap --script http-enum -p80 -oN webScan 10.10.10.79
+Nmap scan report for 10.10.10.79
+Host is up (0.12s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /dev/: Potentially interesting directory w/ listing on 'apache/2.2.22 (ubuntu)'
+|_  /index/: Potentially interesting folder
+
+# Nmap done at Sun Aug 16 14:54:23 2020 -- 1 IP address (1 host up) scanned in 21.22 seconds

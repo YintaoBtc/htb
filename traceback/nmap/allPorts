@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sat Aug 15 22:00:02 2020 as: nmap -p- --open -T5 -v -n -oN allPorts 10.10.10.181
+Nmap scan report for 10.10.10.181
+Host is up (0.054s latency).
+Not shown: 60191 filtered ports, 5342 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Aug 15 22:03:40 2020 -- 1 IP address (1 host up) scanned in 218.07 seconds

@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Tue Aug 18 15:51:40 2020 as: nmap --script http-enum -p80 -oN webScan 10.10.10.18
+Nmap scan report for 10.10.10.18
+Host is up (0.099s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /login.php: Possible admin folder
+|   /classes/: Potentially interesting directory w/ listing on 'apache/2.4.7 (ubuntu)'
+|   /css/: Potentially interesting directory w/ listing on 'apache/2.4.7 (ubuntu)'
+|_  /images/: Potentially interesting directory w/ listing on 'apache/2.4.7 (ubuntu)'
+
+# Nmap done at Tue Aug 18 15:51:51 2020 -- 1 IP address (1 host up) scanned in 11.10 seconds
