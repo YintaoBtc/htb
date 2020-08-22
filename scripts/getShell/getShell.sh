@@ -29,7 +29,7 @@ function helpPanel(){
 function makeRequest(){
     echo -e "${purpleColour}"
     curl "$url?cmd=$1"
-    echo -ned "${endColour}"
+    echo -ne "${endColour}"
 }
 
 function obtainShell(){
