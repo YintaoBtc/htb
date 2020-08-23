@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Sun Aug 23 13:37:30 2020 as: nmap --script http-enum -p80 -oN webScan 10.10.10.185
+Nmap scan report for 10.10.10.185
+Host is up (0.055s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|_  /login.php: Possible admin folder
+
+# Nmap done at Sun Aug 23 13:37:38 2020 -- 1 IP address (1 host up) scanned in 7.62 seconds
