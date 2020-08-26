@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Mon Aug 24 16:21:05 2020 as: nmap -sS --min-rate 5000 -Pn -vvv -n -p- -oN allPorts 10.10.10.60
+Increasing send delay for 10.10.10.60 from 0 to 5 due to 11 out of 16 dropped probes since last increase.
+Nmap scan report for 10.10.10.60
+Host is up, received user-set (0.87s latency).
+Scanned at 2020-08-24 16:21:05 CEST for 31s
+Not shown: 65533 filtered ports
+Reason: 65533 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 63
+443/tcp open  https   syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Aug 24 16:21:36 2020 -- 1 IP address (1 host up) scanned in 31.04 seconds
