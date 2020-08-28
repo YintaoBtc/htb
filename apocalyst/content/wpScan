@@ -1,0 +1,44 @@
+----------------------------------------
+ _ _ _ ___ ___ ___| |_ _ _ 
+| | | | . |_ -| -_| '_| | |
+|_____|  _|___|___|_,_|___|
+      |_|             v0.4.0
+
+WPSeku - Wordpress Security Scanner
+by Momo Outaadi (m4ll0k)
+----------------------------------------
+
+[1;32m[ + ][0m [0;32mTarget: http://apocalyst.htb[0m
+[1;32m[ + ][0m [0;32mStarting: 19:42:20[0m
+[1;37m[0m
+[1;32m[ + ][0m [0;32mServer: Apache/2.4.18 (Ubuntu)[0m
+[1;32m[ + ][0m [0;32mwp-config.php available at: http://apocalyst.htb/wp-config.php[0m
+[1;32m[ + ][0m [0;32mreadme.html file was found at: http://apocalyst.htb/readme.html[0m
+[1;32m[ + ][0m [0;32mDir "/wp-admin/css" listing enable at: http://apocalyst.htb/wp-admin/css/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-admin/images" listing enable at: http://apocalyst.htb/wp-admin/images/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-admin/includes" listing enable at: http://apocalyst.htb/wp-admin/includes/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-admin/js" listing enable at: http://apocalyst.htb/wp-admin/js/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-content/uploads" listing enable at: http://apocalyst.htb/wp-content/uploads/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/" listing enable at: http://apocalyst.htb/wp-includes/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/js" listing enable at: http://apocalyst.htb/wp-includes/js/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/Text" listing enable at: http://apocalyst.htb/wp-includes/Text/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/css" listing enable at: http://apocalyst.htb/wp-includes/css/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/images" listing enable at: http://apocalyst.htb/wp-includes/images/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/pomo" listing enable at: http://apocalyst.htb/wp-includes/pomo/[0m
+[1;32m[ + ][0m [0;32mDir "/wp-includes/theme-compat" listing enable at: http://apocalyst.htb/wp-includes/theme-compat/[0m
+[1;32m[ + ][0m [0;32mRunning WordPress version: 4.8[0m
+[1;37m[0m
+[1;33m[ i ][0m [0;33mPassive enumeration themes...[0m
+[1;32m[ + ][0m [0;32mName: twentyseventeen[0m
+  [0;37m|[0m   [1;37mNot found vulnerabilities[0m
+[1;37m[0m
+[1;33m[ i ][0m [0;33mPassive enumeration plugins...[0m
+[1;32m[ + ][0m [0;32mNot found plugins with passive enumeration[0m
+[1;33m[ i ][0m [0;33mEnumerating users...[0m
+----------------------------
+| ID | Username | Login    |
+----------------------------
+|  0 | falaraki | falaraki |
+|  1 | falaraki | None     |
+|  2 | f        |          |
+----------------------------

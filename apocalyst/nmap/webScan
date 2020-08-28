@@ -1,0 +1,33 @@
+# Nmap 7.80 scan initiated Thu Aug 27 18:55:11 2020 as: nmap --script http-enum -p80 -oN webScan 10.10.10.46
+Nmap scan report for 10.10.10.46
+Host is up (0.041s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /blog/: Blog
+|   /wp-login.php: Possible admin folder
+|   /readme.html: Wordpress version: 2 
+|   /: WordPress version: 4.8
+|   /wp-includes/images/rss.png: Wordpress version 2.2 found.
+|   /wp-includes/js/jquery/suggest.js: Wordpress version 2.5 found.
+|   /wp-includes/images/blank.gif: Wordpress version 2.6 found.
+|   /wp-includes/js/comment-reply.js: Wordpress version 2.7 found.
+|   /wp-login.php: Wordpress login page.
+|   /wp-admin/upgrade.php: Wordpress login page.
+|   /readme.html: Interesting, a readme.
+|   /custom/: Potentially interesting folder
+|   /down/: Potentially interesting folder
+|   /good/: Potentially interesting folder
+|   /hidden/: Potentially interesting folder
+|   /idea/: Potentially interesting folder
+|   /info/: Potentially interesting folder
+|   /information/: Potentially interesting folder
+|   /name/: Potentially interesting folder
+|   /page/: Potentially interesting folder
+|   /personal/: Potentially interesting folder
+|   /pictures/: Potentially interesting folder
+|   /site/: Potentially interesting folder
+|_  /state/: Potentially interesting folder
+
+# Nmap done at Thu Aug 27 18:55:19 2020 -- 1 IP address (1 host up) scanned in 8.21 seconds
