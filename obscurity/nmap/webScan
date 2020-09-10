@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Mon Sep  7 18:51:12 2020 as: nmap --script http-enum.nse -p8080 -oN webScan 10.10.10.168
+Nmap scan report for 10.10.10.168
+Host is up (0.045s latency).
+
+PORT     STATE SERVICE
+8080/tcp open  http-proxy
+
+# Nmap done at Mon Sep  7 18:53:56 2020 -- 1 IP address (1 host up) scanned in 164.27 seconds
